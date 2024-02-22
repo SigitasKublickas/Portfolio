@@ -1,11 +1,19 @@
 import React from "react";
 import "./App.css";
-import AllRoutes from "./AllRoutes";
+import { Route, Routes } from "react-router";
+import Layout from "./Components/Layout/Layout";
+import Home from "./Pages/Home/Home";
+import Contact from "./Pages/Contact/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <AllRoutes />
+    <div className="app w-full h-auto">
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

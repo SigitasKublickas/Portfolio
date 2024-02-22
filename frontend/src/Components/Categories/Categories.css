@@ -1,0 +1,22 @@
+.categories {
+  background-color: #405cf5;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  color: white;
+}
+.invisible-container {
+  position: absolute;
+  min-width: 100%;
+  transition: opacity 150ms ease-in-out;
+  top: 100%;
+  left: 0;
+  max-height: calc(100vh - 145px);
+  background-color: #405cf5;
+  visibility: hidden;
+  opacity: 0;
+}
+.category:hover .invisible-container {
+  visibility: visible;
+  opacity: 1;
+}

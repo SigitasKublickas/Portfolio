@@ -1,1 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  background-color: #cadcfc;
+  color: #000;
+  font: Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

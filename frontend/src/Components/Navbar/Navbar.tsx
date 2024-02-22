@@ -5,17 +5,32 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <nav className="navbar">
-      <Link to="#" className="logo">
-        Logo
-      </Link>
-      <Link to="#">Link 1</Link>
-      <Link to="#">Link 2</Link>
-      <Link to="#">Link 3</Link>
-      <Link to="#">Link 4</Link>
+    <nav className="navbar w-full flex">
+      <ul className="w-full h-full links">
+        <li>
+          <Link to="#" className="logo">
+            Logo
+          </Link>
+        </li>
+        <li>
+          <Link to="#">Link 1</Link>
+        </li>
+        <li>
+          <Link to="#">Link 2</Link>
+        </li>
+        <li>
+          <Link to="#">Link 3</Link>
+        </li>
+        <li>
+          <Link to="#">Link 4</Link>
+        </li>
+      </ul>
       <div className="login-register">
-        <Link to="#">Login</Link>
-        <Link to="#">Register</Link>
+        <Link to="#">Prisijungti</Link>
+        <Link to="#">Registruotis</Link>
+      </div>
+      <div role="button" className="import center">
+        <button>Ikelti</button>
       </div>
     </nav>
   );
