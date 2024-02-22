@@ -15,13 +15,13 @@
   font-size: 17px;
   background: linear-gradient(to right, #cadcfc, #cadcfc),
     linear-gradient(to right, #405cf5, #405cf5);
-  background-size: 100% 1.5px, 0 1.5px;
+  background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
 }
 .navbar a:hover {
-  background-size: 0 1.5px, 100% 1.5px;
+  background-size: 0 2px, 100% 2px;
 }
 .navbar .logo {
   float: left;
@@ -68,13 +68,17 @@
   text-align: center;
   text-transform: none;
   transform: translateZ(0);
-  transition: all 0.2s, box-shadow 0.08s ease-in;
+  transition: all 0.2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 100%;
 }
 
+.navbar .import button:hover {
+  background: #fff;
+  color: #405cf5;
+}
 .navbar .import button:disabled {
   cursor: default;
 }

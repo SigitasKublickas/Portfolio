@@ -15,6 +15,15 @@
   background-color: #405cf5;
   visibility: hidden;
   opacity: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  padding: 20px calc((100% - 1240px) / 2) 40px;
+}
+.invisible-container .child {
+  padding: 0 20px;
+  flex: 1;
 }
 .category:hover .invisible-container {
   visibility: visible;

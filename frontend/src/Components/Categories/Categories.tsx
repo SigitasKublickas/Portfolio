@@ -10,14 +10,14 @@ const Categories = (props: Props) => {
         <li className="p-2 category">
           <Link to={""}>Pramogos</Link>
           <ul className="invisible-container container">
-            <li>
+            <li className="child">
               <Link to={""}>Turizmas</Link>
               <ul>
                 <li>Batai</li>
                 <li>Slepetes</li>
               </ul>
             </li>
-            <li>
+            <li className="child">
               {" "}
               <Link to={""}>Turizmas</Link>
               <ul>
@@ -25,7 +25,7 @@ const Categories = (props: Props) => {
                 <li>Slepetes</li>
               </ul>
             </li>
-            <li>
+            <li className="child">
               {" "}
               <Link to={""}>Turizmas</Link>
               <ul>
@@ -33,7 +33,23 @@ const Categories = (props: Props) => {
                 <li>Slepetes</li>
               </ul>
             </li>
-            <li>
+            <li className="child">
+              {" "}
+              <Link to={""}>Turizmas</Link>
+              <ul>
+                <li>Batai</li>
+                <li>Slepetes</li>
+              </ul>
+            </li>
+            <li className="child">
+              {" "}
+              <Link to={""}>Turizmas</Link>
+              <ul>
+                <li>Batai</li>
+                <li>Slepetes</li>
+              </ul>
+            </li>
+            <li className="child">
               {" "}
               <Link to={""}>Turizmas</Link>
               <ul>
