@@ -9,7 +9,6 @@ export default function Login({}: Props) {
   return (
     <div className="login">
       <LoginForm />
-      <form onSubmit={onHandleSubmit}></form>
     </div>
   );
 }

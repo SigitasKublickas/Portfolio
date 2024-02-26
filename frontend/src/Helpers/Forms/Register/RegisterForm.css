@@ -1,0 +1,78 @@
+.register-form {
+  margin: 0;
+  max-width: 380px;
+  padding: 30px 40px;
+  background: #116a7b;
+  color: white;
+}
+.register-form-header {
+  margin: 0 0 25px;
+}
+.register-form-header-title {
+  font-size: 2.1rem;
+  margin-bottom: 5px;
+}
+.register-form-header-exist {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.register-body-pass {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 8px;
+  font-size: 10px;
+}
+.register-body-pass-requirements {
+  color: #fff;
+  display: flex;
+  transition: color 150ms ease-in-out;
+  position: relative;
+}
+.register-body-pass-requirements span {
+  color: #fff;
+  display: flex;
+  transition: color 150ms ease-in-out;
+  position: relative;
+  margin-left: 15px;
+}
+.register-body-pass-requirements::before {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  content: "";
+  display: inline-block;
+  margin-top: 3px;
+  border-radius: 50px;
+  transition: border 150ms ease-in-out;
+  vertical-align: middle;
+  height: 10px;
+  width: 10px;
+}
+.register-body-pass-requirementsFqGYC_:first-child {
+  padding-bottom: 5px;
+}
+.socials-links-list {
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-flow: column;
+  margin: 8px 0 0 0;
+}
+.socials-links-list-item {
+  color: #fff;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 800;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  transition: background-color 150ms ease-in-out;
+  background-color: #fff;
+  color: #000;
+}
+
+.privacy-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
