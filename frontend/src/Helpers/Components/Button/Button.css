@@ -1,0 +1,12 @@
+.button-body {
+  width: 100%;
+}
+.button-body button {
+  width: 100%;
+  font-weight: 550;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  background-color: #405cf5;
+  color: #ffffff;
+  min-height: 2.5rem;
+}

@@ -26,8 +26,8 @@ const Navbar = (props: Props) => {
         </li>
       </ul>
       <div className="login-register">
-        <Link to="#">Prisijungti</Link>
-        <Link to="#">Registruotis</Link>
+        <Link to="login">Prisijungti</Link>
+        <Link to="register">Registruotis</Link>
       </div>
       <div role="button" className="import center">
         <button>Ikelti</button>

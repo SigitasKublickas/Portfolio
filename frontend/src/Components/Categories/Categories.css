@@ -1,5 +1,5 @@
 .categories {
-  background-color: #405cf5;
+  background-color: #116a7b;
   position: absolute;
   width: 100%;
   left: 0;
@@ -12,12 +12,12 @@
   top: 100%;
   left: 0;
   max-height: calc(100vh - 145px);
-  background-color: #405cf5;
+  background-color: #116a7b;
   visibility: hidden;
   opacity: 0;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   position: absolute;
   padding: 20px calc((100% - 1240px) / 2) 40px;
 }

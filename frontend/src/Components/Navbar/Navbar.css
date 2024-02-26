@@ -1,20 +1,19 @@
 .navbar {
-  background-color: #cadcfc;
+  background-color: #0a1d56;
   align-items: center;
   min-height: 55px;
-  border-bottom: 0.5px solid white;
   position: relative;
 }
 
 .navbar a {
   float: left;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
-  background: linear-gradient(to right, #cadcfc, #cadcfc),
-    linear-gradient(to right, #405cf5, #405cf5);
+  background: linear-gradient(to right, #0a1d56, #0a1d56),
+    linear-gradient(to right, #116a7b, #116a7b);
   background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;

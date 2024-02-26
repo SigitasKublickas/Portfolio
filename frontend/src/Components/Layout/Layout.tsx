@@ -12,7 +12,9 @@ const Layout = (props: Props) => {
   return (
     <div className="layout flex flex-col center">
       <Header />
-      <Outlet />
+      <div className="pt-12 container">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

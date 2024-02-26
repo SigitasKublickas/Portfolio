@@ -13,9 +13,13 @@
   min-height: 100vh;
 }
 body {
-  background-color: #cadcfc;
-  color: #000;
+  background-color: #0a1d56;
+  color: #ffffff;
   font: Arial, sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
+}
+ol,
+ul {
+  list-style: none;
 }
