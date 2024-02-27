@@ -1,6 +1,6 @@
 .login-form {
   margin: 0;
-  max-width: 380px;
+  width: 100%;
   padding: 30px 40px;
   background: #116a7b;
   color: white;

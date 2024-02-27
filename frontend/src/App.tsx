@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="app w-full h-auto">
       <Routes>
+        <Route path="login" element={<Login />} />
+        <Route path="Register" element={<Regitser />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="login" element={<Login />} />
-          <Route path="Register" element={<Regitser />} />
         </Route>
       </Routes>
     </div>

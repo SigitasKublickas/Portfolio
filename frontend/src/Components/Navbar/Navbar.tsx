@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
       <ul className="w-full h-full links">
         <li>
           <Link to="#" className="logo">
-            Logo
+            Funko
           </Link>
         </li>
         <li>
